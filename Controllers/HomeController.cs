@@ -22,6 +22,10 @@ namespace RIMANDO_Act1_Familiarization.Controllers
         {
             return View();
         }
+        public IActionResult HelloWorld()
+        {
+            return View();
+        }
 
         [ResponseCache(Duration = 0, Location = ResponseCacheLocation.None, NoStore = true)]
         public IActionResult Error()
